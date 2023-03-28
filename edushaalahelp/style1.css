@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #E4DCCF;
+  
+}
+.container{
+  max-width: 800px;
+  width: 100%;
+  border: 5px #2c3639;
+  background-color: #fff;
+  padding: 2px 30px;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+  transition: all .6s ease-in-out;
+  
+}
+.container .title{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+  
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  text-align: center;
+  height: 45px;
+  border:none;
+  width: 100%;
+  background:#f7fbfc;
+  border: 1px solid rgba(255,255,255,0.1);
+  color:#0f0e0e;
+  font-weight:300;
+  font-size: 1em;
+  border-radius: 25px;
+  box-shadow:-5px -5px 15px rgba(255,255,255,0.1), 0px 0px -5px rgba(0,0,0,0.35), inset -5px -5px 15px rgba(255,255,255,0.1), inset 5px 5px 15px rgba(0,0,0,0.35);
+  border: 1px solid #112d4e;
+  border-bottom-width: 2px;
+  transition: 0.5s;
+  
+}
+
+.user-details .input-box i{
+ color: #00dfc4;
+}
+
+ form .button{
+   height:45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 30%;
+   margin: auto;
+   display:block;
+  
+   text-align: centre;
+   border-radius: 25px;
+   border: none;
+   color: rgb(14, 1, 1);
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background:#00dfc4;
+ }
+ form .button input:hover{
+  /* transform: scale(0.99); */
+  background:#0994c3;
+  }
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+}
